@@ -23,7 +23,7 @@ if libm.found()
 endif
 
 executable('hyprcrosshair',
-  sources: ['hyprcrosshair.c'],
+  sources: ['src/hyprcrosshair.c'],
   dependencies: deps,
   install: true,
   install_dir: get_option('bindir')
