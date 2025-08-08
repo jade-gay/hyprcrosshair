@@ -24,9 +24,9 @@ Make sure you have the following dependencies installed:
 - gcc (build dependency)
 
 On Arch Linux, you can install dependencies with:
-
+```bash
 sudo pacman -S gtk4 libadwaita gtk4-layer-shell meson ninja gcc
-
+```
 ## Usage
 
 After installation, run the `hyprcrosshair` binary from your terminal or your app launcher.
