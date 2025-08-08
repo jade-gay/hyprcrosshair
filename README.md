@@ -4,13 +4,11 @@ A simple crosshair overlay for Hyprland.
 
 ## Installation
 
-### From source (requires Meson and Ninja)
+### 
 ```bash
 git clone https://github.com/jade-gay/hyprcrosshair.git
 cd hyprcrosshair
-meson setup build
-meson compile -C build
-sudo meson install -C build
+makepkg -si
 ```
 ### Dependencies
 
